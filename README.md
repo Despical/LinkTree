@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
 
-LinkTree is my personal link hub. It brings projects, developer profiles, community links, support pages, documentation, and other useful destinations together in one clean place.
+LinkTree is my personal link hub. It brings my projects, developer profiles, community links, support pages, documentation, and other useful destinations together in one clean place.
 
 ---
 
