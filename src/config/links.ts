@@ -81,7 +81,7 @@ export const sections: LinkSection[] = [
             {
                 title: 'SpigotMC',
                 subtitle:
-                    'I have 18 resources on SpigotMC with more than 125,000 total downloads and over 500 customers. Many of my plugins are trusted by large Minecraft networks.',
+                    'I have 18 resources on SpigotMC with more than 125,000 total downloads and over 500 customers. Many of my plugins are trusted by large networks.',
                 href: 'https://www.spigotmc.org/resources/authors/615094',
                 brandIcon: SiSpigotmc,
                 iconClass: 'brand-spigot',
