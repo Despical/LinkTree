@@ -1,0 +1,65 @@
+name: Feature Request
+description: "Suggest an improvement to LinkTree's content, design, accessibility, or deployment workflow."
+title: "[FEATURE] "
+labels: ["enhancement"]
+type: feature
+assignees:
+  - Despical
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve LinkTree. Please describe the visitor benefit and the experience you have in mind.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of LinkTree would this improve?
+      multiple: true
+      options:
+        - Profile and quick links
+        - Link sections and cards
+        - Content or destinations
+        - Responsive layout
+        - Accessibility
+        - Performance
+        - Visual design and animations
+        - GitHub contribution snake
+        - Build and deployment
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: Explain the visitor pain point, limitation, or maintenance issue.
+      placeholder: It is difficult to...
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: Describe the content, behavior, layout, or workflow change you want to see.
+      placeholder: I would like LinkTree to...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: If you considered another approach, describe it here.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add links, screenshots, mockups, or examples that help explain the request.
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Validation
+      options:
+        - label: I have checked for existing issues regarding this feature request.
+          required: true
+        - label: I am willing to help implement this feature if needed.
+          required: false

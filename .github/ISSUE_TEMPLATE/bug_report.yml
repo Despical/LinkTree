@@ -1,0 +1,73 @@
+name: Bug Report
+description: "Found a broken link, visual issue, or unexpected behavior? Help us fix it with a detailed report."
+title: "[BUG] "
+labels: ["bug"]
+type: bug
+assignees:
+  - Despical
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem with LinkTree. Please provide as much useful detail as possible.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen instead.
+      placeholder: Tell us what you see and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Open ...
+        2. Scroll to or select ...
+        3. See the issue ...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      description: Include the browser name and version if known.
+      placeholder: Chrome 140, Firefox 142, Safari 19, etc.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device or screen size
+      description: Include the device, operating system, or viewport size when relevant.
+      placeholder: Windows 11 at 1920x1080, iPhone, Android, etc.
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where did this occur?
+      multiple: true
+      options:
+        - Public website
+        - Local development
+        - GitHub Pages deployment
+        - Other static hosting
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or additional context
+      description: Add screenshots, console output, affected links, or any other details that may help.
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Validation
+      description: Check these before submitting.
+      options:
+        - label: I have checked for existing issues regarding this bug.
+          required: true
+        - label: I tested against the latest public version of the site.
+          required: true
