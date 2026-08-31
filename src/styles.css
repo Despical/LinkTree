@@ -326,6 +326,11 @@ h1 {
     height: 36px;
 }
 
+.brand-modrinth {
+    border-color: rgba(27, 217, 106, 0.35);
+    background: rgba(27, 217, 106, 0.1);
+}
+
 .link-card__copy {
     min-width: 0;
     display: grid;
