@@ -95,6 +95,14 @@ export const sections: LinkSection[] = [
                 iconClass: 'brand-builtbybit',
             },
             {
+                title: 'Modrinth',
+                subtitle:
+                    'I share my popular free plugins here, with simple downloads and up-to-date releases for the Minecraft community.',
+                href: 'https://modrinth.com/user/Despical',
+                iconUrl: 'modrinth.svg',
+                iconClass: 'brand-modrinth',
+            },
+            {
                 title: 'NexusMods',
                 subtitle:
                     'I publish mods for games I currently play or have played before, including quality-of-life improvements, bug fixes, and other practical enhancements.',
