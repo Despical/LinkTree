@@ -56,7 +56,7 @@ npm run preview
 
 ## Customization
 
-Edit `src/config/links.ts` to update the profile, quick links, link sections, descriptions, icons, and destinations.
+Edit `src/App.tsx` to update the profile, technology groups, project cards, descriptions, and link destinations. The back-to-top button is managed by the same component.
 
 Static assets such as favicons and custom service icons live in `public/`. Global styling is defined in `src/styles.css`.
 
