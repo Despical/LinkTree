@@ -224,10 +224,12 @@ function App() {
               <div className="stack-group">
                 <h3>Also Worked With</h3>
                 <div className="tech-tags">
+                  <span>React</span>
+                  <span>Electron</span>
+                  <span>Node.js</span>
                   <span>Django</span>
                   <span>Kotlin</span>
                   <span>C# / .NET</span>
-                  <span>C++</span>
                 </div>
               </div>
             </section>
