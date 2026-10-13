@@ -158,7 +158,6 @@ function App() {
                   <span>Python</span>
                   <span>JavaScript</span>
                   <span>TypeScript</span>
-                  <span>Groovy</span>
                 </div>
               </div>
               <div className="stack-group">
@@ -328,6 +327,31 @@ function App() {
                 </a>
               </div>
               <div className="resource-grid">
+                <a
+                  className="resource"
+                  href="https://launcher.despical.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="site-icon"
+                    src="icons/green-launcher.svg"
+                    width="32"
+                    height="32"
+                    alt=""
+                  />
+                  <div>
+                    <span className="resource-name">Green Launcher</span>
+                    <span className="resource-sub">
+                      An independent launcher for Minecraft: Java Edition, with
+                      separate profiles, mod and modpack support, and easy
+                      version management.
+                    </span>
+                  </div>
+                  <svg className="icon" aria-hidden="true">
+                    <use href="#arrow" />
+                  </svg>
+                </a>
                 <a
                   className="resource"
                   href="https://docs.despical.dev"
